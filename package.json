@@ -4,7 +4,6 @@
   "main": "index.js",
   "scripts": {
     "test": "karma start karma.conf.js",
-    "test": "jasmine",
     "build": "webpack",
     "start": "npm run build; webpack-dev-server --open --mode development",
     "lint": "eslint src/*.js"
@@ -38,5 +37,13 @@
     "jquery": "^3.3.1",
     "popper.js": "^1.14.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamzilitary/Galactic-Age.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hamzilitary/Galactic-Age/issues"
+  },
+  "homepage": "https://github.com/hamzilitary/Galactic-Age#readme",
   "description": ""
 }
